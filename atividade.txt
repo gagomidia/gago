@@ -1,0 +1,99 @@
+alessandro junio lopes soares
+
+
+
+
+1- Oque é o GIT e qual é a sua principal função no controle de versão do código-fonte ?
+R:O Git é um projeto de código aberto cuja príncipal função é facilitar a troca e adicionar
+ novos códigos em um projeto aumentando a produtividade de toda a equipe em um projeto.
+fonte: https://www.atlassian.com/br/git/tutorials/what-is-git#:~:text=O%20Git%20é%20um%20projeto,e%20de%20código-fonte%20aberto.
+
+
+
+2- Como podemos criar um novo repositório GIT em um projeto existente no seu sistema local ?
+R:Usando o comando "Git init" é possível criar um novo repositório Git em um projeto existente.
+fonte: https://www.atlassian.com/br/git/tutorials/setting-up-a-repository#:~:text=Para%20criar%20um%20novo%20repositório,comando%20cria%20um%20novo%20subdiretório%20.
+
+
+3- Qual a diferença entre "git add" e "git commit" no contexto do git ?
+R:"Git add" significa Adicionar, ou seja, você pode adicionar um arquivo qualquer. já o 
+"Git commit" indica as alterações que você fez no seu projeto.
+fonte: https://pt.stackoverflow.com/questions/572430/comandos-git-git-add-e-git-commit#:~:text=git%20add%20significa%20Adicionar%2C%20ou,você%20realizou%20em%20seu%20projeto.
+
+
+4- Explique o propósito do comando "git push" e quando você o utilizaria .
+R:O comando "Git push" tem um propósito de enviar para uma máquina remota o seu projeto
+e é normalmente ultilizado justamente quando queremos enviar o projeto para o git.
+fonte: https://blog.betrybe.com/git/git-push/
+ 
+
+5- Oque são branches no Git e por que são úteis em um projeto de desenvolvimento ?
+R:Os "Branches" no git são ramificações que separam por partes o projeto e são úteis 
+quando queremos trabalhar o projeto separadamente, ele é melhor para corrigir bugs
+fonte: https://www.locaweb.com.br/blog/temas/codigo-aberto/git-branch-como-usar-e-gerar-ramificacoes/#:~:text=A%20ramificação%2C%20ou%20branch%2C%20é,da%20programação%20em%20diferentes%20subdivisões.
+
+6- Como podemos verificar o status atual do repositório local no GIT ?
+R:Podemos verificar utilizando o comando "git status" 
+fonte: https://cursos.alura.com.br/forum/topico-comando-git-297811#:~:text=Inicialmente%20se%20estamos%20trabalhando%20em,git%20status
+
+
+7- Explique o que é um conflito de merge no GIT e como você resolveria esse problema ?
+R:Um comflito de merge ocorre quando desenvolvedores tentam mudar o mesmo código de formas 
+diferentes gerando conflito no código , e uma forma de resolver seria usando os próprios 
+branches , para separar os códigos dos desenvolvedores .
+fonte: https://www.atlassian.com/br/git/tutorials/using-branches/merge-conflicts
+
+
+8- O que é o GitHub e como ele se diferencia do GIT em termos de funcionabilidades?
+R:Falando por cima , o "GitHub" é uma redesocial de desenvolvedores , onde ele
+possibilita salvar, compartilhar e salvar o histórico de alterações . Diferente do 
+Git que não possui essas funções
+fonte: https://www.alura.com.br/artigos/o-que-e-git-github#:~:text=O%20Github%20é%20uma%20“rede,está%20sendo%20monitorado%20por%20ele.
+
+
+9- Qual a diferença entre um repositório público e privado no GitHub ?
+R:Basicamente o repositório público vai deixar os seus projetos públicos , ja o privado
+só é disponível a visualização do projeto quem for adicionado no projeto , privando para
+pessoas externas
+fonte: https://docs.github.com/pt/repositories/creating-and-managing-repositories/about-repositories
+
+
+10- Como podemos realizar o processo de clonagem (clone) de um repositório do GitHub 
+para o seu computador local?
+R:1- No GitHub.com, navegue até a página principal do repositório.
+2- Acima da lista de arquivos, clique em  Código.
+3- Copie a URL do repositório.
+4- Abra Git Bash.
+5- Digite git clone e cole a URL já copiada.
+6- Pressione ENTER para criar seu clone local.
+fonte: https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
+
+
+11- O que são Pull Requests no GitHub e qual é o seu propósito no desenvolvimento cola
+borativo?
+R:Os pull requests permitem que você proponha alterações nos projetos, forneça feedback
+ e revisões e mescle alterações em projetos. 
+fonte: https://docs.github.com/pt/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop
+
+
+12- Como podemos adicionar um arquivo ao arquivo .gitignore e qual é a sua finalidade ?
+R: você pode adicionar um arquivo . gitignore a qualquer pasta de projeto para informar ao Git quais arquivos ignorar dentro dessa pasta e suas subpastas em qualquer profundidade aninhada
+fonte: https://learn.microsoft.com/pt-br/azure/devops/repos/git/ignore-files?view=azure-devops&tabs=visual-studio-2022
+
+
+13- Explique o que é um fork no GitHub e em que situações você pode querer realizar um
+fork de um repositório .
+R:Os forks permitem fazer alterações em um projeto sem afetar o repositório original
+e pode-se usar o fork em situações em que precisa se alterar ou emplementar alguma
+ informação
+fonte: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+
+
+14- Como podemos visualizar o histórico de commits em um repositório Git ?
+R: Podemos fazer isso utilizando o comando "git log" , ele lista os commits feitos nesse
+repositório
+fonte: https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Vendo-o-histórico-de-Commits#:~:text=A%20ferramenta%20mais%20básica%20e,é%20o%20comando%20git%20log%20.&text=Por%20padrão%2C%20sem%20argumentos%2C%20git,commit%20mais%20recente%20aparece%20primeiro.
+
+15- Qual é a função do comando "git pull" e quando ele deve ser utilizado no desenvolvimento
+colaborativo com o GIt e GitHub ?
+R: Ele busca e baixa conteúdo de repositórios remotos e fazer atualizações imediatas
